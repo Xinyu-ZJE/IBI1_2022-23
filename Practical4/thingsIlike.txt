@@ -1,6 +1,22 @@
-I like getting GitHub to work
-I like music
-I like pork pies
-I like crisps
-I like tea very much
-I like Radio 4
+
+<<<<<<< HEAD
+I like banana
+I like chocolate very much
+=======
+>>>>>>> caoyue
+I like cake
+I don't like running
+I like playing tennis
+I like biology
+I like programming
+I like doing experiments
+I like science
+<<<<<<< HEAD
+I like sleeping
+=======
+I like bread
+I like milk
+I like rice
+I like tea
+I like coffee
+>>>>>>> caoyue
