@@ -21,3 +21,5 @@ I like tea
 I like coffee
 >>>>>>> caoyue
 I like 1.
+I like 2.
+
