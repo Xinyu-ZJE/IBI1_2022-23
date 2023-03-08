@@ -1,0 +1,14 @@
+8/3/2023
+The practical was not easy, but luckily everything went well. It took me about 3 hours to figure out all the principles and finish all the tasks, and I learned a lot.
+In this practical, I did my first git project, set up my own GitHub accounts, and even made my first webpage!
+
+Some difficulties are listed below:
+#difficulty 1: Before knowing I could download Git on my computer, I used the ZJE server to access git resource. I must use the school network to log in the server, and if I connected the VPN, I couldn't log in to the server. But if I want to log in to the web version of GitHub, I must connect VPN. So I can't copy the repository in GitHub to the ZJE server because I couldn't connect VPN and school network at the same time. 
+
+#difficulty 2: It is said that the terminology "master" was taken place by "main", the command "git push origin master" should be written as "git push origin main" in some cases.
+
+#difficulty 3: In webpage making part, the instruction was kind of ambiguous. I couldn't find the option "add a Jekyll theme to your site", and neither could my friends. With the help of the internet, I added a line of code in the file _config.yml, which helped me add a theme to my webpage.
+
+#difficulty 4: I created and edited the file in a default folder, rather than the repository "IBI1_2022-23" copied from the GitHub web. After the file was added to the git and added with many commits, I moved it to the "IBI1_2022-23" file and execute the command "git push..". But after uploading the file to the repository in GitHub, I couldn't find my commits.
+ 
+#else: I downloaded GitHub Desktop, I could move my files to its working directory and upload the files without inputting code in git.  
