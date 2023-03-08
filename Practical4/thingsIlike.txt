@@ -3,7 +3,7 @@ I like biology
 I like programming
 I like bioinformatics
 I like eating
-I like speeling
+I like sleeping
 I like running
 I like swimming
 I like milk
@@ -13,13 +13,13 @@ I like chips very much
 I like Chinese
 I like math
 I like English
-I like politics
+I don't like politics
 I like history
 I like geogrophy
 I like chemistry
 I like studying
-I like milk
-I like cake
-I like speeping
-I like eating
+I like chemietry
+I like physics
+I like music
+I like violin
 >>>>>>> CY
