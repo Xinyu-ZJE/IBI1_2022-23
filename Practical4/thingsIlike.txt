@@ -20,3 +20,4 @@ I like rice
 I like tea
 I like coffee
 >>>>>>> caoyue
+I like 1.
