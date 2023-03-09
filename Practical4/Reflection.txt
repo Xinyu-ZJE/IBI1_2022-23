@@ -3,7 +3,7 @@ The practical was not easy, but luckily everything went well. It took me about 3
 In this practical, I did my first git project, set up my own GitHub account, and even made my first webpage!
 
 Some difficulties are listed below:
-#difficulty 1: Before knowing I could download Git on my computer, I used the ZJE server to access git resource. I must use the school network to log in the server, and if I connected the VPN, I couldn't log in to the server. But if I want to log in to the web version of GitHub, I must connect VPN. So I can't copy the repository in GitHub to the ZJE server because I couldn't connect VPN and school network at the same time. 
+#difficulty 1: Before knowing I could download Git on my computer, I used the ZJE server to access git resource. I must use the school network to log in to the server, and if I connected the VPN, I couldn't log in to the server. But if I want to log in to the web version of GitHub, I must connect VPN. So I can't copy the repository in GitHub to the ZJE server because I couldn't connect VPN and school network at the same time. 
 
 #difficulty 2: The command "git push origin master" should be written as "git push origin main" in some cases.
 
