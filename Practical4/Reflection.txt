@@ -13,4 +13,4 @@ Some difficulties are listed below:
  
 #else: I downloaded GitHub Desktop, I could move my files to its working directory and upload the files without inputting the command "git push origin master".
 9/3/2023
-#solution to difficulty4: I finally understood that my git lose connection with github.
+#solution to difficulty4: I finally understood that my git lose connection with github. The difficulty was solved by connecting them together.
