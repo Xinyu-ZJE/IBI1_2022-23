@@ -8,5 +8,9 @@ num=2 #the initial number is 2
 gen=1 #the initial generation is 1
 while num<100:
  gen=gen+1
+#pow (a,b) means a^b
  num=pow (2,gen)
-print (gen)
+gen=str(gen)
+print ("At the",gen,"th generation, over 100 rabits have been born.")
+
+#The output is "At the 7 th generation, over 100 rabits have been born."
