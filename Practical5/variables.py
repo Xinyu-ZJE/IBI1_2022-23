@@ -8,7 +8,7 @@ if d>e:
 else:
  print ("Haining")
 
-#actually, the flowing method is more rigorous:
+#actually, the following method is more rigorous:
 if d>e:
  print ("Los Angeles")
 elif d<e:
