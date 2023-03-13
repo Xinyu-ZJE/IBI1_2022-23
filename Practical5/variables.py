@@ -22,6 +22,7 @@ X=True
 Y=False
 W=X and Y
 Z=X or Y
-print (W)
-print (Z)
+print ("W=",W)
+print ("Z=",Z)
 
+#The output is "W=False" and "Z=True"
