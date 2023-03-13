@@ -6,5 +6,6 @@ e=c-a
 if d>e:
  print ("Los Angeles")
 else:
- print ("Hainning")
+ print ("Haining")
+#e is larger. The trip to Haining is further!
 
