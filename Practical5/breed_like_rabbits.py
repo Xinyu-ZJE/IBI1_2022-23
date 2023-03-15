@@ -11,6 +11,6 @@ while num<100:
 #pow (a,b) means a^b
  num=pow (2,gen)
 gen=str(gen)
-print ("At the",gen,"th generation, over 100 rabits have been born.")
+print ("At the "+ gen +" th generation, over 100 rabits have been born.")
 
 #The output is "At the 7 th generation, over 100 rabits have been born."
