@@ -1,8 +1,10 @@
-#repeat
+#loop
+#definite the formula
+#definite the loop
 #calculate the hexagnoal number from the first to the fifth
+#output the value
 for i in range (1,6): # i represnts ith hexagonal number
  h=i*(2*i-1) # h represents the hexagonal number
-#output the value
  print ("hexagonal number",i,"is",h)
 
 #the output is
