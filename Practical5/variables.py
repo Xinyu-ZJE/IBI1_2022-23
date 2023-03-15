@@ -9,12 +9,12 @@ else:
  print ("Haining")
 
 #actually, the following method is more rigorous:
-if d>e:
- print ("Los Angeles")
-elif d<e:
- print ("Haining")
-else:
- print ("The distances are the same")
+# if d>e:
+#  print ("Los Angeles")
+# elif d<e:
+#  print ("Haining")
+# else:
+#  print ("The distances are the same")
 
 #The output is "Haining", so the trip to Haining is further than the trip to Los Angeles.
 
