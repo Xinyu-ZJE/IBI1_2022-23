@@ -12,7 +12,7 @@ costs = {'Los Angeles 1984': 1, 'Seoul 1988': 8, 'Barcelona 1992': 15, 'Atlanta 
 # "key=..." means sort the arrays according to the size of number in ... 
 # lambda function extracts the values corresponding to keys.
 sorted_costs=sorted(costs.items(),key=lambda x:x[1])
-# change the tuple into dictionary
+# convert the tuple into dictionary
 my_dict=dict(sorted_costs)
 
 import numpy as np
