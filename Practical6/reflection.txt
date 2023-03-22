@@ -1,0 +1,8 @@
+Today, I learned how to draw bar charts and pie charts with python!!
+
+1. python package downloaded in the wrong directory will not work.
+
+2. importing the dictionary into the chart can save much time. The one-to-one correspondence between key and value is exactly the same as the one-to-one correspondence between x and y.
+
+3. Although a dictionary can't be sorted directly, I can convert it into a tuple and perform the sorting with the lambda function extracting the value as the key of sorting.
+ 
