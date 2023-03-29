@@ -98,7 +98,7 @@ plt.legend()
 plt.show()
 
 # 7.code to answer the question stated in file question.txt
- #How have new cases and total deaths developed over time in China?
+ #How have total cases and total deaths developed over time in China?
 my_column5=[False,True,False,False,False,False]
 my_ls5=[]
 my_ls5=covid_data.iloc[:,my_column5]
