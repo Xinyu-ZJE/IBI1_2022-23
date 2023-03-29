@@ -62,15 +62,15 @@ proportion=average_deaths/average_cases
 # 5.create boxplot of new cases and new deaths on 31 March 2020
 data_cases=new_data.loc[:,'new_cases']
 plt.title('new cases (without outliers)')
-plt.xticks([1],['2020-3-31'])
 plt.ylabel('number')
-plt.boxplot(data_cases,showfliers=False)
+label=['2020-3-31']
+plt.boxplot(data_cases,labels=label,showfliers=False)
 plt.show()
 data_deaths=new_data.loc[:,'new_deaths']
 plt.title('new deaths(without outliers)')
 plt.xticks([1],['2020-3-31'])
 plt.ylabel('number')
-plt.boxplot(data_deaths,showfliers=False)
+plt.boxplot(data_deaths,labels=label,showfliers=False)
 plt.show()
 # 6.plot both new cases and new deaths worldwide over time.
 my_column4=[False,True,False,False,False,False]
