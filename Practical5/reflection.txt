@@ -1,4 +1,4 @@
-In practical practice, I wrote my first line of python code!
+In practical practice, I wrote my first line of python code!!
 # The format of math functions in python is different, for example, the exponential function should be written as "pow (a,b)" rather than "a^b".
 # Statements at the same level must be aligned,Low-level statements require a space at the beginning of the sentence.
 
