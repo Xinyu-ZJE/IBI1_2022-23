@@ -9,20 +9,25 @@ def Protein_coding_capability_calculator(sequence):
 #ensure that there is no illegal character
     if len(set(sequence)-set('ATCGatcg'))==0:
       if percentage>50:
-        print(percentage,'%'," It's a protein-coding sequence.")
+       return percentage,'%'," It's a protein-coding sequence."
       elif percentage<10:
-        print(percentage,'%'," It's a non-coding sequence.")
+        return percentage,'%'," It's a non-coding sequence."
       else:
-        print(percentage,'%'," It's unclear")
+        return percentage,'%'," It's unclear"
     else:
-        print('illegal character')
+        return 'illegal character'
     return
 # Example1 protein-coding sequence
-Protein_coding_capability_calculator('ATGGGGgGGGGgGGGGGGGGGGGGGGGGGGGGGGGGGGGGGTGA')
+x=Protein_coding_capability_calculator('ATGGGGgGGGGgGGGGGGGGGGGGGGGGGGGGGGGGGGGGGTGA')
+#Using *to remove ()
+print(*x)
 #'86.36363636363636 %  It's a protein-coding sequence.'
-Protein_coding_capability_calculator('ATgaActGA')
+y=Protein_coding_capability_calculator('ATgaActGA')
+print(*y)
 #'33.333333333333336 %  It's unclear'
-Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAcTGA')
+z=Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAcTGA')
+print(*z)
 #'7.894736842105263 %  It's a non-coding sequence.'
-Protein_coding_capability_calculator('ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA')
+p=Protein_coding_capability_calculator('ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA')
+print(p)
 #'illegal character
