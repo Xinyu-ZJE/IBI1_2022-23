@@ -1,7 +1,8 @@
 def Protein_coding_capability_calculator(sequence):
     import re
 #extract the code between 'atg' and 'tga', ignoring the case
-    ls_coding_sequence=re.findall('ATG(.*)TGA',sequence,re.IGNORECASE)
+#Noting that I have assumed that there's only one 'ATG' and only one'TGA'!
+    ls_coding_sequence=re.findall('ATG(.*?)TGA',sequence,re.IGNORECASE)
 #convert the list into string 
     coding_sequence=''.join(ls_coding_sequence)
     percentage=100*len(coding_sequence)/len(sequence)
