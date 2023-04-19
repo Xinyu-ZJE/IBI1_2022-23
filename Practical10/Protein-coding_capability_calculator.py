@@ -20,9 +20,9 @@ def Protein_coding_capability_calculator(sequence):
 # Example1 protein-coding sequence
 Protein_coding_capability_calculator('ATGGGGgGGGGgGGGGGGGGGGGGGGGGGGGGGGGGGGGGGTGA')
 #'86.36363636363636 %  It's a protein-coding sequence.'
-Protein_coding_capability_calculator('ATgaAAtGA')
+Protein_coding_capability_calculator('ATgaActGA')
 #'33.333333333333336 %  It's unclear'
-Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA')
+Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAcTGA')
 #'7.894736842105263 %  It's a non-coding sequence.'
 Protein_coding_capability_calculator('ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA')
 #'illegal character
