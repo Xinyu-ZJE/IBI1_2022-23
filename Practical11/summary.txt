@@ -1,0 +1,24 @@
+Findings:
+
+cat and human
+(1)alignment score:3717
+(2)percentage of identical amino acids:85%
+
+cat and mouse
+(1)alignment score:3592
+(2)percentage of identical amino acids:82%
+
+human and mouse:
+(1)alignment score:3579
+(2)percentage of identical amino acids:82%
+
+
+Interpretations:
+
+Because the alignment score between cat's ACE2 gene and human's ACE2 gene is the highest, and also their percentage of identical amino acids is the highest. In terms of the evolution of ACE2 protein, humans and cats are the closest evolutionary relatives.
+
+In view of the evolution of ACE2, the ancestors of humans, mice, and cats first produced a clade that eventually evolved into mice. The common ancestor of humans and cats subsequently evolved into humans and cat.
+
+However, the evolution of a protein is not indicative of the evolution of species.
+
+
