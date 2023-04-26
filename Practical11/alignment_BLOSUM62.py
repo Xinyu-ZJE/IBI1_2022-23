@@ -21,7 +21,7 @@ seq_human=re.sub('>.*?\n','',human_ACE2)
 seq_mouse=re.sub('>.*?\n','',mouse_ACE2)
 seq_cat=re.sub('>.*?\n','',cat_ACE2)
 
-#define a function to perform calculate the score
+#define a function to calculate the score
 def global_align(seq1,seq2):
     loc='ARNDCQEGHILKMFPSTWYVBZX'
     val=identity=0
@@ -29,7 +29,7 @@ def global_align(seq1,seq2):
     for n in range(len(seq1)-1):
         i = seq1[n]
         j = seq2[n]
-#find the location of the score.note that the first row is not score
+#find the location of the score.note that the first row is not score. So the row number should+1
         a=loc.find(i)
         b=loc.find(j)+1
 #sum up all the score
@@ -37,6 +37,7 @@ def global_align(seq1,seq2):
         if i==j:
             identity +=1
     return '(1) score is',val,'(2) number of identical amino acids is',identity,'(3) percentage of identical amino acid is',identity/len(seq1)*100,'%'
+# use * to delete ()
 print(*global_align(seq_mouse,seq_cat))
 print(*global_align(seq_mouse,seq_human))
 print(*global_align(seq_cat,seq_human))
