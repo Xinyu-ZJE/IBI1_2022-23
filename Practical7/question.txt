@@ -1,11 +1,18 @@
-How have new cases and total deaths developed over time in China?
+Question： How have new cases and total deaths developed over time in China?
 
-line 100 to line 126
+line 104 to line 130
 
 discussion:
-Overall, it fits my expectation. After the initial development in the first two months, the number of infected people became larger and began to rise exponentially in March.
-In addition, China had a large population density, so the number of total cases in March 2020 was large.
-The death toll has been kept low, both because of the low fatality rate and because of medical control
+Overall, it partly fit my expectation. 
+
+I expect that the total cases and total deaths will increase smoothly at the beginning and rise exponentially in the middle and get stable in the end.
+
+The figure showed me that after the initial development in the first month, the number of infected people grew and increased exponentially in February, and got stable in March.
+
+discussion
+The larger the infected base, the more people will be infected. So exponential growth makes sense. The low number of deaths may be caused by medical control or the low fatality rate of the virus. But actually, the period of rising exponentially should be longer because of the large population of China. I infer that the short period of exponentially rising may be the result of China's effective epidemic prevention policy.
+
+
 
 
 
