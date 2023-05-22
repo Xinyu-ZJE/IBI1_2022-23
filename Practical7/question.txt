@@ -1,4 +1,4 @@
-Question： How have new cases and total deaths developed over time in China?
+Question： How have total cases and total deaths developed over time in China?
 
 line 104 to line 130
 
