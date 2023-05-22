@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 # 1.importing the .csv file
 os. chdir ("C:/Users/86178/")
-covid_data=pd.read_csv("full_data.csv")
+with open('full_data.csv') as file:
+    covid_data = pd.read_csv(file)
 # 2.showing the second column from every 100th row from the first 1000 rows (inclusive)
 print(covid_data.iloc[0:1001:100,1])
 print('******************')
