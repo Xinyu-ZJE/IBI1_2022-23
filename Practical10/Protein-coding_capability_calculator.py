@@ -9,25 +9,20 @@ def Protein_coding_capability_calculator(sequence):
 #ensure that there is no illegal character
     if len(set(sequence)-set('ATCGatcg'))==0:
       if percentage>50:
-       return percentage,'%'," It's a protein-coding sequence (Assume that start and stop codons are not part of the coding sequence)."
+          x=str(percentage)+'%'+" It's a protein-coding sequence (Assume that start and stop codons are not part of the coding sequence)."
       elif percentage<10:
-        return percentage,'%'," It's a non-coding sequence (Assume that start and stop codons are not part of the coding sequence)."
+          x =str(percentage)+ '%'+" It's a non-coding sequence (Assume that start and stop codons are not part of the coding sequence)."
       else:
-        return percentage,'%'," It's unclear (Assume that start and stop codons are not part of the coding sequence)"
+          x=str(percentage)+'%'+" It's unclear (Assume that start and stop codons are not part of the coding sequence)"
     else:
-        return 'illegal character'
-    return
+        x='illegal character'
+    return x
 # Example1 protein-coding sequence
-x=Protein_coding_capability_calculator('ATGGGGgGGGGgGGGGGGGGGGGGGGGGGGGGGGGGGGGGGTGA')
-#Using *to remove ()
-print(*x)
-#'86.36363636363636 %  It's a protein-coding sequence.'
-y=Protein_coding_capability_calculator('ATgaActGA')
-print(*y)
-#'33.333333333333336 %  It's unclear'
-z=Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAcTGA')
-print(*z)
-#'7.894736842105263 %  It's a non-coding sequence.'
-p=Protein_coding_capability_calculator('ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA')
-print(p)
+print(Protein_coding_capability_calculator('ATGGGGgGGGGgGGGGGGGGGGGGGGGGGGGGGGGGGGGGGTGA'))
+# 86.36363636363636% It's a protein-coding sequence (Assume that start and stop codons are not part of the coding sequence).
+print(Protein_coding_capability_calculator('ATgaActGA'))
+# 33.333333333333336% It's unclear (Assume that start and stop codons are not part of the coding sequence)
+print(Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAcTGA'))
+# 7.894736842105263% It's a non-coding sequence (Assume that start and stop codons are not part of the coding sequence).
+print(Protein_coding_capability_calculator('ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA'))
 #'illegal character
