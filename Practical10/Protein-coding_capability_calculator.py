@@ -25,4 +25,4 @@ print(Protein_coding_capability_calculator('ATgaActGA'))
 print(Protein_coding_capability_calculator('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAcTGA'))
 # 7.894736842105263% It's a non-coding sequence (Assume that start and stop codons are not part of the coding sequence).
 print(Protein_coding_capability_calculator('ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGAAATGA'))
-#'illegal character
+# illegal character
