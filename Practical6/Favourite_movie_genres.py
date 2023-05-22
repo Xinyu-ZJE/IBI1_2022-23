@@ -2,8 +2,7 @@
 my_dict={}
 movie={'Comedy':73,'Action':42,'Romance':38,'Fantasy':28,'Science-fictioin':22,'Horror':19,'Crime':18,'Documetary':12,'History':8,'War':7}
 
-#two methods to  realize the interaction with users
-# the first one: chosen
+#realize the interaction with users
 chosen=input('the movie genre:(capitalize the first letter)')
 print(movie.get(chosen,'notfound'))
 
