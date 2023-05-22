@@ -1,6 +1,6 @@
 Question： How have total cases and total deaths developed over time in China?
 
-line 104 to line 130
+line 105 to line 131
 
 I expect that the total cases and total deaths will increase smoothly at the beginning,
 and rise exponentially in the middle and get stable in the end.
