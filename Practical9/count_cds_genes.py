@@ -3,12 +3,12 @@ import re
 f = open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r')
 stop_codon=input('Please chose a stop codon from TAA, TAG and TGA:')
 #remove \n and add \n before >
-cdna = f.read().replace('\n', '')
-cdna2=re.sub('>\D','\n>',cdna)
+cdna = f.read()
+# considering that there might be > in the annotation
+cdna2=re.sub('\n(?!>)','',cdna)
 #remove the information
 cdna3=re.sub('cdna.*]','',cdna2)
 lines=cdna3.splitlines()
-
 cdna4= [gene for gene in lines if gene.endswith(stop_codon)]
 cdna4_new=[]
 #count the number of input stop codon
