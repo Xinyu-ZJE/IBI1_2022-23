@@ -1,7 +1,7 @@
 import re
 f = open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r')
-cdna = f.read().replace('\n', '')
-cdna2=re.sub('>(?!>)','\n>',cdna)
+cdna = f.read()
+cdna2=re.sub('\n(?!>)','',cdna)
 # delete other information
 cdna3=re.sub('cdna.+]','',cdna2)
 lines=cdna3.splitlines()
